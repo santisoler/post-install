@@ -237,7 +237,12 @@ if bin_dir:
     os.system("mkdir ~/bin")
     path = question("Add ~/bin to PATH?")
     if path:
-        os.system("export PATH=$PATH:/home/santi/bin >> ~/.bashrc")
+        home_path = os.getenv("HOME")
+        bashrc_path = home_path + "/.bashrc"
+        if os.path.isfile(bashrc_path):
+            bashrc = open(bashrc_path, 'a')
+            bashrc.write("\n" + u"export PATH=$PATH:" + home_path + u"/bin")
+            bashrc.close()
 
 response = question("Show users in lightdm?")
 if response:
