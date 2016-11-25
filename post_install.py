@@ -65,7 +65,7 @@ xfce_basics_pkg = ["gtk2-engines-murrine", "light-locker",
                    "gnome-system-tools", "xfce4-whiskermenu-plugin",
                    "gdebi", "gksu", "catfish", "gnome-system-monitor",
                    "qt4-qtconfig", "gigolo", "geany", "geany-plugins",
-                   "gparted", "gnome-disk-utility", ]
+                   "gparted", "gnome-disk-utility", "wipe"]
 
 utilities = ["unrar-free", "grsync", "firefox-esr-l10n-es-ar",
              "icedtea-plugin", "locate", "libreoffice-l10n-es", "samba",
@@ -144,7 +144,8 @@ multimedia = {"SMPlayer": ["smplayer", main],
               "Inkscape": ["inkscape", main],
               "Darktable": ["darktable", backports],
               "Shotwell": ["shotwell", main],
-              "Deluge": ["deluge", backports]
+              "Deluge": ["deluge", backports],
+              "MuseScore": ["musescore", backports]
               }
 
 for key in multimedia.keys():
