@@ -64,7 +64,7 @@ def sources_creator(contrib=True, nonfree=True, jessie_backports=True):
 xfce_basics_pkg = ["gtk2-engines-murrine", "light-locker",
                    "gnome-system-tools", "xfce4-whiskermenu-plugin",
                    "gdebi", "gksu", "catfish", "gnome-system-monitor",
-                   "qt4-qtconfig", "gigolo", "geany", "geany-plugins",
+                   "qt4-qtconfig", "gigolo",
                    "gparted", "gnome-disk-utility", "wipe"]
 
 utilities = ["unrar-free", "grsync", "firefox-esr-l10n-es-ar",
@@ -118,7 +118,8 @@ if response:
 os.system("clear")
 print "Utilities"
 ask_pkg("Install usefull utilities?", utilities, main)
-other_utils = {"unrar (non-free)": ["unrar", main],
+other_utils = {"Geany (jessie-backports)": [["geany", "geany-plugins"], backports],
+			   "unrar (non-free)": ["unrar", main],
                "synapse (jessie-backports)": ["synapse", backports],
                "owncloud (jessie-backports)":
                    [["owncloud-client", "owncloud-client-l10n"], backports],
