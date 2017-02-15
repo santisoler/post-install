@@ -176,7 +176,7 @@ network = {"gufw firewall": ["gufw", main],
            "netdiscover": ["netdiscover", main],
            "Tor Browser": ["torbrowser-launcher", main],
            "gpg and seahorse": [["gnupg", "gnupg-curl", "seahorse"], main],
-           "KeePassX (Password Manager)": ["keepassx", main],
+           "KeePassX (Password Manager)": ["keepassx", backports],
            "PWGen (Password Generator)": ["pwgen", main]
            }
 for key in network.keys():
