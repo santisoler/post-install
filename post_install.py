@@ -71,7 +71,7 @@ utilities = ["unrar-free", "grsync", "firefox-esr-l10n-es-ar",
              "icedtea-plugin", "locate", "libreoffice-l10n-es", "samba",
              "gvfs-backends", "curl", "cryptsetup", "git", "htop"]
 
-python_pkg = ["ipython", "ipython-notebook", "pyflakes", "python-rope",
+python_pkg = ["ipython", "pyflakes", "python-rope",
               "python-numpy", "python-scipy", "python-matplotlib",
               "python-pip", "python-gi", "python-gi-cairo",
               "python-mpltoolkits.basemap", "python-pyproj", "pep8"]
@@ -118,7 +118,8 @@ if response:
 os.system("clear")
 print "Utilities"
 ask_pkg("Install usefull utilities?", utilities, main)
-other_utils = {"Geany (jessie-backports)": [["geany", "geany-plugins"], backports],
+other_utils = {"Jupyter Python 2 notebook (jessie-backports)": ["python-notebook", backports],
+               "Geany (jessie-backports)": [["geany", "geany-plugins"], backports],
 			   "unrar (non-free)": ["unrar", main],
                "synapse (jessie-backports)": ["synapse", backports],
                "owncloud (jessie-backports)":
