@@ -121,7 +121,7 @@ ask_pkg("Install usefull utilities?", utilities, main)
 other_utils = {"Jupyter Python 2 notebook (jessie-backports)": ["python-notebook", backports],
                "Geany (jessie-backports)": [["geany", "geany-plugins"], backports],
 			   "unrar (non-free)": ["unrar", main],
-               "synapse (jessie-backports)": ["synapse", backports],
+               "kupfer": ["kupfer", backports],
                "owncloud (jessie-backports)":
                    [["owncloud-client", "owncloud-client-l10n"], backports],
                "Python related packages?": [python_pkg, main],
