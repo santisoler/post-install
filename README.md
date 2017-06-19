@@ -8,7 +8,7 @@ creation, system upgrade and package installation.
 Download this repository manually, or use git if it's already installed:
 
 ```
-git clone https://www.github.com/santis19/post_install
+git clone https://www.github.com/santis19/post-install
 ```
 
 Uncompress (if you downloaded manually) and change working directory to post_install. Then make the script excecutable and finally we can ran it as root.
