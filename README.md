@@ -62,7 +62,7 @@ In case we have more than one packages file, for example one for jessie and anot
 
 ## Old script
 
-The previous version of the script can be found in this repository, under the old-script branch.
+The previous version of the script can be found in this repository, under the [old-script](https://github.com/santis19/post_install/tree/old-script) branch.
 
 
 ## Licence
