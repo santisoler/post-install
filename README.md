@@ -3,7 +3,7 @@
 This script allows us to automatize post installation tasks as repositories
 creation, system upgrade and package installation.
 
-## Install
+## Installing
 
 Download this repository manually, or use git if it's already installed:
 
@@ -35,7 +35,7 @@ An example of this package file can be:
 ```
 ! stretch
 
-[ Git]
+[ Git ]
 git
 
 [ iPython and Numpy ]
@@ -59,6 +59,10 @@ In case we have more than one packages file, for example one for jessie and anot
 ```
 # ./post-install packages1 packages2
 ```
+
+## Old script
+
+The previous version of the script can be found in this repository, under the old-script branch.
 
 
 ## Licence
