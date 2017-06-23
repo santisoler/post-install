@@ -2,7 +2,10 @@
 
 [ Bash tools ]
 git htop wipe lshw locate curl rsync unrar-free samba cryptsetup gvfs-backends
-gnupg unrar
+gnupg unrar openssh-server
+
+[ Synclient ]
+xserver-xorg-input-synaptics
 
 [ Basic XFCE Tools ]
 gtk2-engines-murrine qt4-qtconfig xfce4-whiskermenu-plugin libreoffice-l10n-es
