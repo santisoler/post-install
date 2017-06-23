@@ -11,7 +11,7 @@ gigolo gparted gnome-disk-utility file-roller kupfer ttf-mscorefonts-installer
 seahorse geany geany-plugins firefox-esr-l10n-es-ar
 
 [ Firefox addons ]
-https-everywhere ublock-origin greasemonkey flashplugin-nonfree
+https-everywhere ublock-origin greasemonkey
 icedtea-plugin icedtea-plugin
 
 [ Python ]
