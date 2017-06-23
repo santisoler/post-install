@@ -1,7 +1,7 @@
 ! stretch
 
 [ Bash tools ]
-git htop wipe lshw locate curl rsync unrar-free samba cryptsetup gvfs-backends
+aptitude git htop wipe lshw locate curl rsync unrar-free samba cryptsetup gvfs-backends
 gnupg unrar openssh-server
 
 [ Synclient ]
