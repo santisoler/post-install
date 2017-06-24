@@ -27,7 +27,7 @@ python-mpltoolkits.basemap python-pyproj pep8 python-mysqldb
 python-pytest python-future python-pil cython
 
 [ Networks ]
-chromium deluge
+chromium chromium-l10n deluge
 
 [ Multimedia & Graphics ]
 smplayer inkscape simple-scan gnome-font-viewer
