@@ -56,11 +56,11 @@ darktable gthumb hugin
 [ Musescore ]
 musescore
 
+[ Asunder CD-Ripper]
+asunder lame 
+
 [ GMT ]
 gmt gmt-doc gmt-gshhg
 
 [ SageMath ]
 sagemath sagemath-jupyter
-
-
-
