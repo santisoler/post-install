@@ -2,7 +2,7 @@
 
 [ Bash tools ]
 bash-completion aptitude git htop wipe lshw locate curl rsync unrar-free samba cryptsetup gvfs-backends
-gnupg unrar openssh-server
+gnupg unrar openssh-server net-tools
 
 [ Synclient ]
 xserver-xorg-input-synaptics
