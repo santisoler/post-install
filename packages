@@ -29,6 +29,9 @@ python-pytest python-future python-pil cython
 [ Networks ]
 chromium chromium-l10n deluge
 
+[ Corebird ]
+corebird
+
 [ Multimedia & Graphics ]
 smplayer inkscape simple-scan gnome-font-viewer
 
