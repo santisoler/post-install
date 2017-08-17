@@ -10,10 +10,10 @@ xserver-xorg-input-synaptics
 [ Faenza Icons ]
 faenza-icon-theme
 
-[ Basic XFCE Tools ]
-gtk2-engines-murrine qt4-qtconfig xfce4-whiskermenu-plugin libreoffice-l10n-es
-grsync light-locker gnome-system-tools gdebi gksu catfish gnome-system-monitor
-gigolo gparted gnome-disk-utility file-roller kupfer ttf-mscorefonts-installer
+[ Basic GNOME Tools ]
+qt4-qtconfig libreoffice-l10n-es
+grsync gdebi gksu
+gparted file-roller ttf-mscorefonts-installer
 seahorse geany geany-plugins firefox-esr-l10n-es-ar
 
 [ Firefox addons ]
