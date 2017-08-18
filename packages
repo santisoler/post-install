@@ -12,6 +12,7 @@ qt4-qtconfig libreoffice-l10n-es
 grsync gdebi gksu
 gparted file-roller ttf-mscorefonts-installer
 seahorse geany geany-plugins firefox-esr-l10n-es-ar
+libcanberra-gtk-module gtk2-engines-murrine
 
 [ Firefox addons ]
 https-everywhere ublock-origin greasemonkey
