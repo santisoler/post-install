@@ -10,6 +10,9 @@ xserver-xorg-input-synaptics
 [ Faenza Icons ]
 faenza-icon-theme
 
+[ Moka Icons ]
+moka-icon-theme
+
 [ Basic XFCE Tools ]
 gtk2-engines-murrine qt4-qtconfig xfce4-whiskermenu-plugin libreoffice-l10n-es
 grsync light-locker gnome-system-tools gdebi gksu catfish gnome-system-monitor
