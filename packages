@@ -7,12 +7,15 @@ gnupg unrar openssh-server net-tools
 [ Faenza Icons ]
 faenza-icon-theme
 
-[ Basic GNOME Tools ]
-qt4-qtconfig libreoffice-l10n-es
-grsync gdebi gksu
-gparted file-roller ttf-mscorefonts-installer
-seahorse geany geany-plugins firefox-esr-l10n-es-ar
-libcanberra-gtk-module gtk2-engines-murrine
+[ Moka Icons ]
+moka-icon-theme
+
+[ Basic KDE Tools ]
+libreoffice-l10n-es
+grsync
+print-manager kde-config-touchpad
+gparted ttf-mscorefonts-installer
+firefox-esr-l10n-es-ar
 
 [ Firefox addons ]
 https-everywhere ublock-origin greasemonkey
@@ -34,7 +37,7 @@ corebird
 kdeconnect
 
 [ Multimedia & Graphics ]
-smplayer inkscape simple-scan gnome-font-viewer
+smplayer inkscape simple-scan
 
 [ LaTeX ]
 texlive texlive-latex-extra texlive-lang-spanish
