@@ -1,11 +1,8 @@
 ! stretch
 
 [ Bash tools ]
-bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free samba cryptsetup gvfs-backends
-gnupg unrar openssh-server net-tools
-
-[ Synclient ]
-xserver-xorg-input-synaptics
+bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
+samba cryptsetup gvfs-backend gnupg unrar openssh-server net-tools
 
 [ Faenza Icons ]
 faenza-icon-theme
@@ -13,11 +10,12 @@ faenza-icon-theme
 [ Moka Icons ]
 moka-icon-theme
 
-[ Basic XFCE Tools ]
-gtk2-engines-murrine qt4-qtconfig xfce4-whiskermenu-plugin libreoffice-l10n-es
-grsync light-locker gnome-system-tools gdebi gksu catfish gnome-system-monitor
-gigolo gparted gnome-disk-utility file-roller kupfer ttf-mscorefonts-installer
-seahorse geany geany-plugins firefox-esr-l10n-es-ar
+[ Basic KDE Tools ]
+libreoffice-l10n-es
+grsync
+print-manager kde-config-touchpad
+gparted ttf-mscorefonts-installer
+firefox-esr-l10n-es-ar
 
 [ Firefox addons ]
 https-everywhere ublock-origin greasemonkey
@@ -39,7 +37,7 @@ corebird
 kdeconnect
 
 [ Multimedia & Graphics ]
-smplayer inkscape simple-scan gnome-font-viewer
+smplayer inkscape simple-scan
 
 [ LaTeX ]
 texlive texlive-latex-extra texlive-lang-spanish
@@ -66,7 +64,7 @@ darktable gthumb hugin
 musescore
 
 [ Asunder CD-Ripper]
-asunder lame 
+asunder lame
 
 [ GMT ]
 gmt gmt-doc gmt-gshhg

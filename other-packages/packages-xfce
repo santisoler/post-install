@@ -1,28 +1,23 @@
 ! stretch
 
 [ Bash tools ]
-bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free samba cryptsetup gvfs-backends
-gnupg unrar openssh-server net-tools
+bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
+samba cryptsetup gvfs-backends gnupg unrar openssh-server net-tools
+
+[ Synclient ]
+xserver-xorg-input-synaptics
 
 [ Faenza Icons ]
 faenza-icon-theme
 
-[ Basic GNOME Tools ]
-qt4-qtconfig libreoffice-l10n-es
-grsync gdebi gksu
-gparted file-roller ttf-mscorefonts-installer
+[ Basic XFCE Tools ]
+gtk2-engines-murrine qt4-qtconfig xfce4-whiskermenu-plugin libreoffice-l10n-es
+grsync light-locker gnome-system-tools gdebi gksu catfish gnome-system-monitor
+gigolo gparted gnome-disk-utility file-roller kupfer ttf-mscorefonts-installer
 seahorse geany geany-plugins firefox-esr-l10n-es-ar
-libcanberra-gtk-module gtk2-engines-murrine
 
 [ Firefox addons ]
-https-everywhere ublock-origin greasemonkey
 icedtea-plugin icedtea-plugin
-
-[ Python ]
-ipython pyflakes python-rope python-numpy python-scipy
-python-matplotlib python-pip python-gi python-gi-cairo
-python-mpltoolkits.basemap python-pyproj pep8 python-mysqldb
-python-pytest python-future python-pil cython
 
 [ Networks ]
 chromium chromium-l10n deluge
@@ -61,7 +56,7 @@ darktable gthumb hugin
 musescore
 
 [ Asunder CD-Ripper]
-asunder lame 
+asunder lame
 
 [ GMT ]
 gmt gmt-doc gmt-gshhg
