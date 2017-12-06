@@ -1,0 +1,70 @@
+! stretch
+
+[ Bash tools ]
+bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free samba cryptsetup gvfs-backends
+gnupg unrar openssh-server net-tools
+
+[ Faenza Icons ]
+faenza-icon-theme
+
+[ Basic GNOME Tools ]
+qt4-qtconfig libreoffice-l10n-es
+grsync gdebi gksu
+gparted file-roller ttf-mscorefonts-installer
+seahorse geany geany-plugins firefox-esr-l10n-es-ar
+libcanberra-gtk-module gtk2-engines-murrine
+
+[ Firefox addons ]
+https-everywhere ublock-origin greasemonkey
+icedtea-plugin icedtea-plugin
+
+[ Python ]
+ipython pyflakes python-rope python-numpy python-scipy
+python-matplotlib python-pip python-gi python-gi-cairo
+python-mpltoolkits.basemap python-pyproj pep8 python-mysqldb
+python-pytest python-future python-pil cython
+
+[ Networks ]
+chromium chromium-l10n deluge
+
+[ Corebird ]
+corebird
+
+[ Kde Connect ]
+kdeconnect
+
+[ Multimedia & Graphics ]
+smplayer inkscape simple-scan gnome-font-viewer
+
+[ LaTeX ]
+texlive texlive-latex-extra texlive-lang-spanish
+texlive-lang-english texlive-publishers texlive-fonts-extra
+texlive-xetex
+jabref klatexformula
+
+[ Owncloud ]
+owncloud-client owncloud-client-l10n
+
+[ Wine ]
+wine
+
+[ KeepassX ]
+keepassx
+
+[ GnuCash ]
+gnucash
+
+[ Photos ]
+darktable gthumb hugin
+
+[ Musescore ]
+musescore
+
+[ Asunder CD-Ripper]
+asunder lame 
+
+[ GMT ]
+gmt gmt-doc gmt-gshhg
+
+[ SageMath ]
+sagemath sagemath-jupyter
