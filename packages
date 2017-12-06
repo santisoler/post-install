@@ -1,0 +1,21 @@
+# Example of packages file
+#
+# The first line must specify the repository from which the packages are
+# going to be installed. It must start with a !
+#
+# We can create groups of packages whose titles must be written between
+# [ and ], and then we write the packages belonging to that group.
+# The packages can be on individual lines or in the same line separated by a
+# white space.
+
+! stretch
+
+[ Bash tools ]
+bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
+samba cryptsetup gvfs-backends gnupg unrar openssh-server net-tools
+
+[ Firefox addons ]
+https-everywhere ublock-origin greasemonkey flashplugin-nonfree icedtea-plugin
+
+[ Other tools ]
+unrar-free grsync locate amba gvfs-backends curl cryptsetup git htop
