@@ -11,7 +11,9 @@ Download this repository manually, or use git if it's already installed:
 git clone https://www.github.com/santis19/post-install
 ```
 
-Uncompress (if you downloaded manually) and change working directory to post_install. Then make the script excecutable and finally we can ran it as root.
+Uncompress (if you downloaded manually) and change working directory to
+post_install.
+Then make the script excecutable and finally we can ran it as root.
 First we should make it excecutable:
 
 ```
@@ -23,12 +25,16 @@ $ su
 
 ## Running
 
-Before running the script we must write our own packages file, as the one present in this repo.
-In this file we will put the packages that the script will ask which we want to install.
-We group them using titles written between \[ and \].
+Before running the script we must write our own packages file, as the one
+present in this repo.
+In this file we will put the packages that the script will ask which we want
+to install.
+We group them using titles written between `[` and `]`.
 
-In the package file we must also set the distribution from which the packages will be installed.
-We do it in the first line, putting the distribution after a ! symbol. For example: ! stretch
+In the package file we must also set the distribution from which the packages
+will be installed.
+We do it in the first line, putting the distribution after a `!` symbol.
+For example: `! stretch`
 
 An example of this package file can be:
 
@@ -48,13 +54,15 @@ Once the packages file is created, we can run the script (as root) as follows:
 # ./post-install packages
 ```
 
-If we want to assume yes all the questions from the apt statements, we can add a -y option:
+If we want to assume yes all the questions from the apt statements, we can add
+a `-y` option:
 
 ```
 # ./post-install -y packages
 ```
 
-In case we have more than one packages file, for example one for jessie and another one for jessie-backports, we can run them together:
+In case we have more than one packages file, for example one for `stretch` and
+another one for `stretch-backports`, we can run them together:
 
 ```
 # ./post-install packages1 packages2
@@ -78,4 +86,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
+along with this program.
+If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
