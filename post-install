@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import os
+import sys
 import argparse
 from core import PackagesInstaller, SourcesCreator, question, choose
 from core import DISTRIBUTIONS, AREAS
@@ -18,12 +19,12 @@ parser.add_argument('-y', '--yes', action='store_true',
 args = parser.parse_args()
 
 
-## Check running as root
+# Check running as root
 if not os.getuid() == 0:
     sys.exit("\nPlease, run this script as root.\n")
 
 
-## Welcome
+# Welcome
 os.system("clear")
 script_title = ("""
 Debian Post Installation Script
@@ -57,7 +58,7 @@ update = question("Do you want to update package list? (apt-get update)")
 upgrade = question("Do you want to upgrade packages? (apt-get upgrade)")
 distupgrade = False
 if upgrade:
-    distupgrade = question("Do you want to dist-upgrade packages? " + 
+    distupgrade = question("Do you want to dist-upgrade packages? " +
                            "(apt-get dist-upgrade)")
 
 
