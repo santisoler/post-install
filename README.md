@@ -70,9 +70,9 @@ another one for `stretch-backports`, we can run them together:
 
 ## Other Packages Files
 
-In [other-packages]
-(https://github.com/santis19/post-install/tree/master/other-packages) you can
-find ready to use packages files.
+In
+[other-packages](https://github.com/santis19/post-install/tree/master/other-packages)
+you can find ready to use packages files.
 
 
 ## Old script
