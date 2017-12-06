@@ -1,0 +1,73 @@
+! stretch
+
+[ Bash tools ]
+bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
+samba cryptsetup gvfs-backends gnupg unrar openssh-server net-tools
+grsync
+
+[ Microsoft Core Fonts (non-free) ]
+ttf-mscorefonts-installer
+
+[ Synclient ]
+xserver-xorg-input-synaptics
+
+[ Faenza Icons ]
+faenza-icon-theme
+
+[ Firefox addons ]
+icedtea-plugin icedtea-plugin
+
+[ Extra Language Packages (Spanish)]
+libreoffice-l10n-es
+firefox-esr-l10n-es-ar
+
+[ Networks ]
+chromium chromium-l10n deluge
+
+[ Corebird ]
+corebird
+
+[ Kde Connect ]
+kdeconnect
+
+[ SMPlayer ]
+smplayer
+
+[ Inkscape ]
+inkscape
+
+[ Simple Scan ]
+simple-scan
+
+[ Gnome Font Viewer ]
+gnome-font-viewer
+
+[ LaTeX ]
+texlive texlive-latex-extra texlive-lang-spanish
+texlive-lang-english texlive-publishers texlive-fonts-extra
+texlive-xetex
+jabref klatexformula
+
+[ Owncloud ]
+owncloud-client owncloud-client-l10n
+
+[ Wine ]
+wine
+
+[ KeepassX ]
+keepassx
+
+[ GnuCash ]
+gnucash
+
+[ Photos ]
+darktable gthumb hugin
+
+[ Musescore ]
+musescore
+
+[ Asunder CD-Ripper]
+asunder lame
+
+[ GMT ]
+gmt gmt-doc gmt-gshhg

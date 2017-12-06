@@ -1,73 +1,7 @@
 ! stretch
 
-[ Bash tools ]
-bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
-samba cryptsetup gvfs-backend gnupg unrar openssh-server net-tools
-
-[ Faenza Icons ]
-faenza-icon-theme
-
-[ Moka Icons ]
-moka-icon-theme
-
 [ Basic KDE Tools ]
-libreoffice-l10n-es
 grsync
-print-manager kde-config-touchpad
-gparted ttf-mscorefonts-installer
-firefox-esr-l10n-es-ar
-
-[ Firefox addons ]
-https-everywhere ublock-origin greasemonkey
-icedtea-plugin icedtea-plugin
-
-[ Python ]
-ipython pyflakes python-rope python-numpy python-scipy
-python-matplotlib python-pip python-gi python-gi-cairo
-python-mpltoolkits.basemap python-pyproj pep8 python-mysqldb
-python-pytest python-future python-pil cython
-
-[ Networks ]
-chromium chromium-l10n deluge
-
-[ Corebird ]
-corebird
-
-[ Kde Connect ]
-kdeconnect
-
-[ Multimedia & Graphics ]
-smplayer inkscape simple-scan
-
-[ LaTeX ]
-texlive texlive-latex-extra texlive-lang-spanish
-texlive-lang-english texlive-publishers texlive-fonts-extra
-texlive-xetex
-jabref klatexformula
-
-[ Owncloud ]
-owncloud-client owncloud-client-l10n
-
-[ Wine ]
-wine
-
-[ KeepassX ]
-keepassx
-
-[ GnuCash ]
-gnucash
-
-[ Photos ]
-darktable gthumb hugin
-
-[ Musescore ]
-musescore
-
-[ Asunder CD-Ripper]
-asunder lame
-
-[ GMT ]
-gmt gmt-doc gmt-gshhg
-
-[ SageMath ]
-sagemath sagemath-jupyter
+print-manager
+kde-config-touchpad
+gparted
