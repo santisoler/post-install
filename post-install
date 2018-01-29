@@ -16,6 +16,8 @@ parser.add_argument('pkgs_files', metavar='pkgs_file', type=str,
                     nargs='+', help=help_line, default='')
 parser.add_argument('-y', '--yes', action='store_true',
                     help='Automatic yes to apt prompts')
+parser.add_argument('-l', '--lightdm', action='store_true',
+                    help='Configure lightdm')
 args = parser.parse_args()
 
 
@@ -75,15 +77,16 @@ for packages_file in packages_files:
 
 
 # Configurations
-print "\n\nConfigurations"
-print "--------------"
-answer = question("\nShow users in lightdm?")
-if answer:
-    os.system('cat /usr/share/lightdm/lightdm.conf.d/' +
-              '01_debian.conf | sed "s/greeter-hide-users=' +
-              '.*/greeter-hide-users=false/g" | ' +
-              'sudo tee /usr/share/lightdm/lightdm.conf.d/' +
-              '01_debian.conf')
+if args.lightdm:
+    print "\n\nConfigurations"
+    print "--------------"
+    answer = question("\nShow users in lightdm?")
+    if answer:
+        os.system('cat /usr/share/lightdm/lightdm.conf.d/' +
+                  '01_debian.conf | sed "s/greeter-hide-users=' +
+                  '.*/greeter-hide-users=false/g" | ' +
+                  'sudo tee /usr/share/lightdm/lightdm.conf.d/' +
+                  '01_debian.conf')
 
 
 # Execution of orders
