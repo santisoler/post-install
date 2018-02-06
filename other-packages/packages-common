@@ -5,6 +5,9 @@ bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
 samba cryptsetup gvfs-backends gnupg unrar openssh-server net-tools
 grsync
 
+[ HP Print Drivers ]
+hplip
+
 [ Microsoft Core Fonts (non-free) ]
 ttf-mscorefonts-installer
 
