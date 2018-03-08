@@ -3,7 +3,7 @@
 [ Bash tools ]
 bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
 samba cryptsetup gvfs-backends gnupg unrar openssh-server net-tools
-grsync
+grsync diceware pwgen
 
 [ HP Print Drivers ]
 hplip
