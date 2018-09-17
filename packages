@@ -11,8 +11,9 @@
 ! stretch
 
 [ Bash tools ]
-bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
-samba cryptsetup gvfs-backends gnupg unrar openssh-server net-tools
+bash-completion dkms aptitude git vim htop wipe lshw locate curl
+rsync unrar-free samba cryptsetup gvfs-backends gnupg unrar
+openssh-server net-tools
 
 [ Other tools ]
 unrar-free grsync locate amba gvfs-backends curl cryptsetup git htop

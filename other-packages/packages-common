@@ -1,9 +1,9 @@
 ! stretch
 
 [ Bash tools ]
-bash-completion dkms aptitude git htop wipe lshw locate curl rsync unrar-free
-samba cryptsetup gvfs-backends gnupg unrar openssh-server net-tools
-grsync diceware pwgen
+bash-completion dkms aptitude git vim htop wipe lshw locate curl
+rsync unrar-free samba cryptsetup gvfs-backends gnupg unrar
+openssh-server net-tools
 
 [ HP Print Drivers ]
 hplip
