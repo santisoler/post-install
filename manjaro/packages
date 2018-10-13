@@ -1,6 +1,6 @@
 [ basic packages ]
 bash-completion
-vim
+gvim
 gnome-system-monitor
 xf86-input-synaptics
 icedtea-web
