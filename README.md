@@ -1,7 +1,10 @@
-# Debian Post Installation Script
+# Post Installation Scripts
 
-This script allows us to automatize post installation tasks as repositories
+These script allows to automatize post installation tasks as repositories
 creation, system upgrade and package installation.
+
+Currently, there are two post installation scripts: one for Debian and other for
+Manjaro.
 
 ## Installing
 
@@ -12,18 +15,18 @@ git clone https://www.github.com/santis19/post-install
 ```
 
 Uncompress (if you downloaded manually) and change working directory to
-post_install.
+`post_install/debian` or `post_install/manjaro`.
 Then make the script excecutable and finally we can ran it as root.
 First we should make it excecutable:
 
 ```
-$ cd post-install
+$ cd post-install/manjaro
 $ chmod +x post-install
 $ su
 # ./post-install --help
 ```
 
-## Running
+## Setting up
 
 Before running the script we must write our own packages file, as the one
 present in this repo.
@@ -31,6 +34,16 @@ In this file we will put the packages that the script will ask which we want
 to install.
 We group them using titles written between `[` and `]`.
 
+For example:
+```
+[ vim and git]
+vim git
+
+[ git ]
+git
+```
+
+### Only for Debian packages file
 In the package file we must also set the distribution from which the packages
 will be installed.
 We do it in the first line, putting the distribution after a `!` symbol.
@@ -48,6 +61,7 @@ git
 ipython python-numpy
 ```
 
+## How to use it
 Once the packages file is created, we can run the script (as root) as follows:
 
 ```
@@ -71,7 +85,7 @@ another one for `stretch-backports`, we can run them together:
 ## Other Packages Files
 
 In
-[other-packages](https://github.com/santis19/post-install/tree/master/other-packages)
+[other-packages](https://github.com/santis19/post-install/tree/master/debian/other-packages)
 you can find ready to use packages files.
 
 
