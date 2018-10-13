@@ -1,0 +1,47 @@
+[ basic packages ]
+bash-completion
+vim
+gnome-system-monitor
+xf86-input-synaptics
+icedtea-web
+grsync
+ttf-dejavu
+keepassx2
+evince
+pwgen
+gnome-disk-utility
+kupfer
+arc-gtk-theme
+paper-icon-theme-git
+papirus-icon-theme
+speedtest-cli
+deluge
+owncloud-client
+
+[ texlive ]
+texlive-core
+texlive-latexextra
+texlive-bibtexextra
+texlive-science
+
+[ multimedia ]
+smplayer
+lollypop
+
+[ graphics ]
+darktable
+simple-scan
+inkscape
+
+[ wxmaxima ]
+wxmaxima
+
+[ okular ]
+okular
+
+[ gnucash ]
+gnucash
+
+[ geany ]
+geany
+geany-plugins

@@ -1,0 +1,120 @@
+#!/usr/bin/env python
+from __future__ import print_function
+import os
+import sys
+import argparse
+
+
+def question(sentence, default=True):
+    answer = False
+    yes = ['yes', 'y']
+    no = ['no', 'n']
+    if default:
+        yes.append('')
+        key_indicator = " [Y/n] "
+    else:
+        no.append('')
+        key_indicator = " [y/N] "
+    while not answer:
+        choice = raw_input(str(sentence) + key_indicator).lower()
+        if choice in yes:
+            answer = True
+            return True
+        elif choice in no:
+            answer = True
+            return False
+
+
+def read_packages_file(filename):
+    groups = []
+    packages = {}
+    with open(filename, "r") as f:
+        inside_group = False
+        for line in f:
+            if "[" in line:
+                inside_group = True
+                group = line.replace("[", "").replace("]", "")
+                group = group.strip()
+                grp_pkgs = []
+            elif len(line) > 1:
+                grp_pkgs += line.split()
+            else:
+                if inside_group:
+                    inside_group = False
+                    packages[group] = grp_pkgs
+                    groups.append(group)
+    return groups, packages
+
+
+def choose_packages(groups, packages):
+    chosen_pkgs = []
+    for group in groups:
+        answer = question("Install " + group + "?")
+        if answer:
+            chosen_pkgs = packages[group]
+    return chosen_pkgs
+
+
+if __name__ == "__main__":
+
+    # Argument Parser
+    help_line = 'Text files containing the packages to choose for installation'
+    description = 'Manjaro Post Installation Script' + \
+                  '\nWritten by Santiago Soler' + \
+                  '\nhttps://www.github.com/santis19/post_install'
+    parser = argparse.ArgumentParser(description=description)
+    parser.add_argument('pkgs_files', metavar='pkgs_file', type=str,
+                        nargs='+', help=help_line, default='')
+    parser.add_argument('-y', '--yes', action='store_true',
+                        help='Assume yes')
+    parser.add_argument('-r', '--reinstall', action='store_true',
+                        help="Reinstall packages that are already up-to-date")
+    parser.add_argument('-q', '--quiet', action='store_true',
+                        help="Quiet verbose")
+    args = parser.parse_args()
+
+    # Check running as root
+    if not os.getuid() == 0:
+        sys.exit("\nPlease, run this script as root.\n")
+
+    # Welcome
+    os.system("clear")
+    script_title = "Manjaro Post Installation Script\n" + "-"*32
+    print(script_title)
+
+    # Update & Upgrade packages
+    print("\nUpdate Packages")
+    print("---------------")
+    update = question("Do you want to update the packages?")
+
+    # Packages selection
+    print("\nPackages Selection")
+    print("------------------")
+    packages_to_install = []
+    for packages_file in args.pkgs_files:
+        if not os.path.isfile(packages_file):
+            print("Packages file " + packages_file + "couldn't be found. " +
+                  "Will be ignored.")
+            continue
+        groups, packages = read_packages_file(packages_file)
+        new_packages = choose_packages(groups, packages)
+        packages_to_install += new_packages
+
+    # System excecutions
+    updated = False
+    if update:
+        updated = True
+        print("\nUpdating packages\n" + "-"*17)
+        os.system("pacman -Syu")
+    if packages_to_install:
+        print("\nInstalling packages\n" + "-"*19)
+        if not updated:
+            os.system("pacman -Sy")
+        install_line = "pacman -S "
+        if args.quiet:
+            install_line += "-q "
+        if not args.reinstall:
+            install_line += "--needed "
+        if args.yes:
+            install_line += "--noconfirm "
+        os.system(install_line + " ".join(packages_to_install))
