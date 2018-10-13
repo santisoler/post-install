@@ -18,6 +18,12 @@ speedtest-cli
 deluge
 owncloud-client
 
+[ yay ]
+base-devel yay
+
+[ base-devel ]
+base-devel
+
 [ texlive ]
 texlive-core
 texlive-latexextra
