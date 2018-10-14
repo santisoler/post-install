@@ -1,5 +1,6 @@
 [ basic packages ]
 bash-completion
+xclip
 gvim
 gnome-system-monitor
 xf86-input-synaptics
