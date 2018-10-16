@@ -18,6 +18,7 @@ papirus-icon-theme
 speedtest-cli
 deluge
 owncloud-client
+ttf-font-awesome
 
 [ yay ]
 base-devel yay
