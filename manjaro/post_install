@@ -16,7 +16,11 @@ def question(sentence, default=True):
         no.append('')
         key_indicator = " [y/N] "
     while not answer:
-        choice = raw_input(str(sentence) + key_indicator).lower()
+        # Check Python version in order to use input() or raw_input()
+        if sys.version_info[0] < 3:
+            choice = raw_input(str(sentence) + key_indicator).lower()
+        else:
+            choice = input(str(sentence) + key_indicator).lower()
         if choice in yes:
             answer = True
             return True
@@ -41,7 +45,7 @@ def read_packages_file(filename):
             else:
                 if inside_group:
                     inside_group = False
-                    packages[group] = grp_pkgs
+                    packages[group] = grp_pkgs[:]
                     groups.append(group)
     return groups, packages
 
@@ -51,7 +55,7 @@ def choose_packages(groups, packages):
     for group in groups:
         answer = question("Install " + group + "?")
         if answer:
-            chosen_pkgs = packages[group]
+            chosen_pkgs += packages[group]
     return chosen_pkgs
 
 
@@ -101,14 +105,12 @@ if __name__ == "__main__":
         packages_to_install += new_packages
 
     # System excecutions
-    updated = False
     if update:
-        updated = True
         print("\nUpdating packages\n" + "-"*17)
         os.system("pacman -Syu")
     if packages_to_install:
         print("\nInstalling packages\n" + "-"*19)
-        if not updated:
+        if not update:
             os.system("pacman -Sy")
         install_line = "pacman -S "
         if args.quiet:
