@@ -19,6 +19,7 @@ speedtest-cli
 deluge
 owncloud-client
 ttf-font-awesome
+system-config-printer
 
 [ yay ]
 base-devel yay
