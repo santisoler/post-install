@@ -21,6 +21,7 @@ owncloud-client
 ttf-font-awesome
 system-config-printer
 aspell-es
+firefox-i18n-es-ar
 
 [ yay ]
 base-devel yay
