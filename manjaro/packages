@@ -20,6 +20,7 @@ deluge
 owncloud-client
 ttf-font-awesome
 system-config-printer
+aspell-es
 
 [ yay ]
 base-devel yay
