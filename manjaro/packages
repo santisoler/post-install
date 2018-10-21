@@ -23,6 +23,11 @@ system-config-printer
 aspell-es
 firefox-i18n-es-ar
 
+[ nvim ]
+neovim
+python-neovim
+python2-neovim
+
 [ yay ]
 base-devel yay
 
