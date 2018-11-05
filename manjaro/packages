@@ -41,8 +41,10 @@ texlive-latexextra
 texlive-bibtexextra
 texlive-science
 
-[ multimedia ]
+[ smplayer ]
 smplayer
+
+[ lollypop and quodlibet ]
 lollypop
 quodlibet
 
