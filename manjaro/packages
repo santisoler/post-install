@@ -1,28 +1,34 @@
 [ basic packages ]
-bash-completion
-xclip
-gvim
 gnome-system-monitor
 xf86-input-synaptics
 icedtea-web
 grsync
-ttf-dejavu
 keepassx2
 evince
-pwgen
 gnome-disk-utility
 kupfer
-arc-gtk-theme
-paper-icon-theme-git
-papirus-icon-theme
 speedtest-cli
 deluge
 owncloud-client
-ttf-font-awesome
 system-config-printer
 aspell-es
 firefox-i18n-es-ar
+
+[ term apps ]
+bash-completion
+pwgen
+vim
+xclip
+
+[ fonts ]
 noto-fonts-emoji
+ttf-dejavu
+ttf-font-awesome
+
+[ themes ]
+arc-gtk-theme
+arc-themes-maia
+papirus-icon-theme
 
 [ nvim ]
 neovim
