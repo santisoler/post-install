@@ -17,7 +17,7 @@ firefox-i18n-es-ar
 [ term apps ]
 bash-completion
 pwgen
-vim
+gvim
 xclip
 
 [ fonts ]
