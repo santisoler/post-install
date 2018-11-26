@@ -14,6 +14,7 @@ system-config-printer
 aspell-es
 firefox-i18n-es-ar
 gcolor2
+terminator
 
 [ term apps ]
 bash-completion
