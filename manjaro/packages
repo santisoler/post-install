@@ -20,6 +20,7 @@ bash-completion
 pwgen
 gvim
 xclip
+tmux
 
 [ fonts ]
 noto-fonts-emoji
