@@ -13,6 +13,7 @@ owncloud-client
 system-config-printer
 aspell-es
 firefox-i18n-es-ar
+gcolor2
 
 [ term apps ]
 bash-completion
