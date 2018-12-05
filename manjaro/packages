@@ -21,6 +21,7 @@ bash-completion
 pwgen
 gvim
 xclip
+tree
 
 [ fonts ]
 noto-fonts-emoji
