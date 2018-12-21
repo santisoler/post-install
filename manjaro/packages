@@ -63,6 +63,10 @@ darktable
 simple-scan
 inkscape
 
+[ audio tools ]
+sox
+audacity
+
 [ telegram ]
 telegram-desktop
 
