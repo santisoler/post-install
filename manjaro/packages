@@ -23,6 +23,7 @@ gvim
 xclip
 tree
 tmux
+wipe
 
 [ fonts ]
 noto-fonts-emoji
