@@ -31,8 +31,12 @@ ttf-dejavu
 ttf-font-awesome
 
 [ themes ]
-arc-gtk-theme
 arc-themes-maia
+papirus-maia-icon-theme
+
+[ more themes ]
+arc-gtk-theme
+matcha-gtk-theme
 papirus-icon-theme
 
 [ nvim ]
