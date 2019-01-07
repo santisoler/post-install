@@ -24,6 +24,7 @@ xclip
 tree
 tmux
 wipe
+dos2unix
 
 [ fonts ]
 noto-fonts-emoji
