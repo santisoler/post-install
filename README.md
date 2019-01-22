@@ -11,7 +11,7 @@ Manjaro.
 Download this repository manually, or use git if it's already installed:
 
 ```
-git clone https://www.github.com/santis19/post-install
+git clone https://www.github.com/santisoler/post-install
 ```
 
 Uncompress (if you downloaded manually) and change working directory to
@@ -85,13 +85,13 @@ another one for `stretch-backports`, we can run them together:
 ## Other Packages Files
 
 In
-[other-packages](https://github.com/santis19/post-install/tree/master/debian/other-packages)
+[other-packages](https://github.com/santisoler/post-install/tree/master/debian/other-packages)
 you can find ready to use packages files.
 
 
 ## Old script
 
-The previous version of the script can be found in this repository, under the [old-script](https://github.com/santis19/post-install/tree/old-script) branch.
+The previous version of the script can be found in this repository, under the [old-script](https://github.com/santisoler/post-install/tree/old-script) branch.
 
 
 ## Licence

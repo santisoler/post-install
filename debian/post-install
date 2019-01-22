@@ -10,7 +10,7 @@ from core import DISTRIBUTIONS, AREAS
 help_line = 'Text files containing the packages to choose for installation'
 description = 'Debian Post Installation Script' + \
               '\nWritten by Santiago Soler' + \
-              '\nhttps://www.github.com/santis19/post_install'
+              '\nhttps://www.github.com/santisoler/post_install'
 parser = argparse.ArgumentParser(description=description)
 parser.add_argument('pkgs_files', metavar='pkgs_file', type=str,
                     nargs='+', help=help_line, default='')
