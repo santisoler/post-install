@@ -57,6 +57,7 @@ texlive-core
 texlive-latexextra
 texlive-bibtexextra
 texlive-science
+git-latexdiff
 
 [ smplayer ]
 smplayer
