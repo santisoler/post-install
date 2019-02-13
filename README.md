@@ -1,10 +1,7 @@
-# Post Installation Scripts
+# Manjaro Post Installation Script
 
-These script allows to automatize post installation tasks as repositories
-creation, system upgrade and package installation.
-
-Currently, there are two post installation scripts: one for Debian and other for
-Manjaro.
+These script allows to automatize Manjaro post installation tasks as system update and
+package installation.
 
 ## Installing
 
@@ -15,15 +12,13 @@ git clone https://www.github.com/santisoler/post-install
 ```
 
 Uncompress (if you downloaded manually) and change working directory to
-`post_install/debian` or `post_install/manjaro`.
+`post_install`.
 Then make the script excecutable and finally we can ran it as root.
-First we should make it excecutable:
 
 ```
-$ cd post-install/manjaro
+$ cd post-install/
 $ chmod +x post-install
-$ su
-# ./post-install --help
+$ sudo ./post-install --help
 ```
 
 ## Setting up
@@ -36,62 +31,44 @@ We group them using titles written between `[` and `]`.
 
 For example:
 ```
+[ latex ]
+texlive-full
+
 [ vim and git]
-vim git
-
-[ git ]
+vim
 git
 ```
 
-### Only for Debian packages file
-In the package file we must also set the distribution from which the packages
-will be installed.
-We do it in the first line, putting the distribution after a `!` symbol.
-For example: `! stretch`
-
-An example of this package file can be:
-
-```
-! stretch
-
-[ Git ]
-git
-
-[ iPython and Numpy ]
-ipython python-numpy
-```
+The [`packages`](https://github.com/santisoler/post-install/blob/master/packages)
+file has a collection of packages that are generally used by me, see if it meets your
+requirements and feel free to edit it as you please.
 
 ## How to use it
 Once the packages file is created, we can run the script (as root) as follows:
 
 ```
-# ./post-install packages
+$ sudo ./post-install packages
 ```
 
 If we want to assume yes all the questions from the apt statements, we can add
 a `-y` option:
 
 ```
-# ./post-install -y packages
+$ sudo ./post-install -y packages
 ```
 
-In case we have more than one packages file, for example one for `stretch` and
-another one for `stretch-backports`, we can run them together:
+In case we have more than one packages file, for example `packages1` and `packages2`,
+we can run them together:
 
 ```
-# ./post-install packages1 packages2
+$ sudo ./post-install packages1 packages2
 ```
-
-## Other Packages Files
-
-In
-[other-packages](https://github.com/santisoler/post-install/tree/master/debian/other-packages)
-you can find ready to use packages files.
-
 
 ## Old script
 
-The previous version of the script can be found in this repository, under the [old-script](https://github.com/santisoler/post-install/tree/old-script) branch.
+Previous versions of the script can be found in this repository under the
+[old-script](https://github.com/santisoler/post-install/tree/old-script) or the
+[debian](https://github.com/santisoler/post-install/tree/debian) branches.
 
 
 ## Licence
