@@ -73,6 +73,8 @@ darktable
 gthumb
 simple-scan
 inkscape
+pstoedit
+python2-lxml
 
 [ audio tools ]
 sox
