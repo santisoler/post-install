@@ -79,6 +79,7 @@ python2-lxml
 [ audio tools ]
 sox
 audacity
+soundconverter
 
 [ telegram ]
 telegram-desktop
