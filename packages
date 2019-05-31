@@ -27,6 +27,7 @@ tree
 tmux
 wipe
 dos2unix
+gnupg
 
 [ fonts ]
 noto-fonts-emoji
