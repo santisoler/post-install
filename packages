@@ -29,6 +29,9 @@ dos2unix
 gnupg
 speedtest-cli
 
+[ keepassxc ]
+keepassxc
+
 [ fonts ]
 noto-fonts-emoji
 ttf-dejavu
