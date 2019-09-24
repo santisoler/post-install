@@ -47,7 +47,6 @@ papirus-icon-theme
 [ nvim ]
 neovim
 python-neovim
-python2-neovim
 
 [ yay ]
 base-devel yay
