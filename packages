@@ -6,7 +6,6 @@ grsync
 evince
 gnome-disk-utility
 kupfer
-speedtest-cli
 deluge
 owncloud-client
 system-config-printer
@@ -27,6 +26,7 @@ tmux
 wipe
 dos2unix
 gnupg
+speedtest-cli
 
 [ fonts ]
 noto-fonts-emoji
