@@ -16,6 +16,7 @@ terminator
 ebook-tools
 gnome-font-viewer
 seahorse
+meld
 
 [ term apps ]
 bash-completion
