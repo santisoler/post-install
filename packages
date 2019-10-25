@@ -29,6 +29,7 @@ wipe
 dos2unix
 gnupg
 speedtest-cli
+pdfpc
 
 [ keepassxc ]
 keepassxc
