@@ -30,6 +30,7 @@ dos2unix
 gnupg
 speedtest-cli
 pdfpc
+screen
 
 [ keepassxc ]
 keepassxc
