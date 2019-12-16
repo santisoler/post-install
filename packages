@@ -56,6 +56,8 @@ papirus-icon-theme
 [ nvim ]
 neovim
 python-neovim
+python-jedi
+python-black
 
 [ yay ]
 base-devel yay
