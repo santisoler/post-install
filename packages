@@ -58,6 +58,7 @@ neovim
 python-neovim
 python-jedi
 python-black
+python-flake8
 
 [ yay ]
 base-devel yay
