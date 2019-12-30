@@ -41,17 +41,13 @@ ttf-dejavu
 ttf-font-awesome
 
 [ themes ]
-arc-themes-maia
+matcha-gtk-theme
+adapta-maia-theme
+adapta-gtk-theme
 papirus-maia-icon-theme
+papirus-icon-theme
 capitaine-cursors
 manjaro-wallpapers-18.0
-
-[ more themes ]
-adapta-maia-gtk
-adapta-gtk-theme
-arc-gtk-theme
-matcha-gtk-theme
-papirus-icon-theme
 
 [ nvim ]
 neovim
