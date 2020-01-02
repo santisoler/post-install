@@ -5,7 +5,6 @@ icedtea-web
 grsync
 evince
 gnome-disk-utility
-kupfer
 deluge
 owncloud-client
 system-config-printer
@@ -17,6 +16,13 @@ ebook-tools
 gnome-font-viewer
 seahorse
 meld
+
+[ albert ]
+albert
+muparser
+
+[ kupfer ]
+kupfer
 
 [ term apps ]
 bash-completion
