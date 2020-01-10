@@ -71,6 +71,9 @@ base-devel yay
 [ base-devel ]
 base-devel
 
+[ whatsapp wrapper]
+whatsapp-online-jak
+
 [ texlive ]
 texlive-core
 texlive-latexextra
