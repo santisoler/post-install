@@ -64,6 +64,7 @@ python-neovim
 python-jedi
 python-black
 python-flake8
+python-pylint
 
 [ yay ]
 base-devel yay
